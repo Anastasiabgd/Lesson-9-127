@@ -51,7 +51,7 @@ function createPost(item) {
 
    divWrapper.addEventListener('click', function(event){
     
-    let id = event.target.getAttribute('data-id');
+    let id = event.currentTarget.getAttribute('data-id');
     overlay.classList.add('active');
    
 
